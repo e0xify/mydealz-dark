@@ -5,7 +5,7 @@
 // @author        supp
 // @include       https://www.mydealz.de/*
 // @run-at        document-start
-// @version       0.31
+// @version       0.33
 // ==/UserScript==
 
 (function() {var css = [
@@ -144,6 +144,9 @@
      ".notification-item--read {",
     "	background: #2b303b !important;",
     "}",
+    ".navMenu-trigger:hover {",
+    "	background: #21252D !important;",
+    "}",
     ".autoSuggest-results.autoSuggest-offset {",
     "	background: #2b303b !important;",
     "}",
@@ -152,6 +155,9 @@
     "}",
     ".vue {",
     "	background: #2b303b !important;",
+    "}",
+    ".navMenu-trigger {",
+    "	background: transparent !important;",
     "}",
     " .img-framed, .imgFrame-img, .ratioBox-child {",
     "	border-radius:20px !important;",
@@ -171,6 +177,9 @@
     "	background: #2b303b !important;",
     "}",
     "",
+    ".btn, .btn--plain, .countdownBanner--btn, .subNavMenu-btn, .tag {",
+    "	background: transparent !important;",
+    "}",
     "/* Handle */",
     "::-webkit-scrollbar-thumb {",
     "	background: #3C414C !important;",
