@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name          Mydealz
-// @namespace     
+// @namespace     http://userstyles.org
 // @description	  A dark theme for mydealz.de
 // @author        supp
 // @include       https://www.mydealz.de/*
 // @run-at        document-start
-// @version       0.25
+// @version       0.15
 // ==/UserScript==
 
 (function() {var css = [
@@ -145,6 +145,9 @@
     " .page2-center.tGrid.tGrid--auto overflow--wrap-off {",
     "	width:300px !important;",
     "background-color:#333 !important;",
+    "}",
+    ".bg--color-brandSecondaryShade {",
+    "	background-color: transparent !important;",
     "}",
     "code {",
     "	background: #2C3037 !important;",
