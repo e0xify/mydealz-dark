@@ -5,7 +5,7 @@
 // @author        supp
 // @include       https://www.mydealz.de/*
 // @run-at        document-start
-// @version       0.25
+// @version       0.30
 // ==/UserScript==
 
 (function() {var css = [
@@ -60,6 +60,8 @@
     "}",
     ".subNav, .subNav--light {",
     "	background-color: #2b303b !important;",
+    "    margin-right: 19.12%;",
+    "margin-left: 19.12%;",
     "}",
     ".btn--mode-boxSec {",
     "	background-color: #2b303b !important;",
@@ -130,6 +132,9 @@
      ".navDropDown-footer {",
     "	background: #2b303b !important;",
     "}",
+    ".popover--brandAccent .popover-content, .popover--brandPrimary .popover-content, .popover--default .popover-content, .popover--menu .popover-content, .popover--red .popover-content {",
+    "	background: #2b303b !important;",
+    "}",
     ".navDropDown-tabContent {",
     "	background: #2b303b !important;",
     "}",
@@ -137,6 +142,12 @@
     "	background: #2b303b !important;",
     "}",
     ".autoSuggest-results.autoSuggest-offset {",
+    "	background: #2b303b !important;",
+    "}",
+    ".popover--modal .popover-content {",
+    "	background: #2b303b !important;",
+    "}",
+    ".vue {",
     "	background: #2b303b !important;",
     "}",
     " .img-framed, .imgFrame-img, .ratioBox-child {",
@@ -148,6 +159,9 @@
     "}",
     ".bg--color-brandSecondaryShade {",
     "	background-color: transparent !important;",
+    "}",
+    ".profileHeader.space--h-2.space--v-2.hAlign--all-c {",
+    "	border-radius: 40px !important;",
     "}",
     "/* Track */",
     "::-webkit-scrollbar-track {",
