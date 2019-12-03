@@ -5,7 +5,7 @@
 // @author        supp
 // @include       https://www.mydealz.de/*
 // @run-at        document-start
-// @version       0.15
+// @version       0.25
 // ==/UserScript==
 
 (function() {var css = [
@@ -149,6 +149,21 @@
     ".bg--color-brandSecondaryShade {",
     "	background-color: transparent !important;",
     "}",
+    "/* Track */",
+    "::-webkit-scrollbar-track {",
+    "	background: #2b303b !important;",
+    "}",
+    "",
+    "/* Handle */",
+    "::-webkit-scrollbar-thumb {",
+    "	background: #3C414C !important;",
+    "}",
+    "",
+    "/* Handle on hover */",
+    "::-webkit-scrollbar-thumb:hover {",
+    "	background: #3C414C !important;",
+    "}",
+    "",
     "code {",
     "	background: #2C3037 !important;",
     "	color: #EBEBEB !important;",
