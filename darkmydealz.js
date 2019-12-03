@@ -5,7 +5,7 @@
 // @author        supp
 // @include       https://www.mydealz.de/*
 // @run-at        document-start
-// @version       0.30
+// @version       0.31
 // ==/UserScript==
 
 (function() {var css = [
@@ -104,6 +104,9 @@
     "}",
      ".flex.boxAlign-ai--all-c.width--all-12.height--all-full {",
     "	background-color: #002543 !important;",
+    "}",
+    ".userHtml-quote {",
+    "	border-left: 5px solid #69BE28 !important;",
     "}",
     ".text--overlay:before {",
     "	background: none !important;",
