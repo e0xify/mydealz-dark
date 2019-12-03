@@ -5,7 +5,7 @@
 // @author        supp
 // @include       https://www.mydealz.de/*
 // @run-at        document-start
-// @version       0.33
+// @version       0.35
 // ==/UserScript==
 
 (function() {var css = [
@@ -131,6 +131,9 @@
     "}",
      ".conversationList-msg--read:not(.conversationList-msg--active) {",
     "	background: #2b303b !important;",
+    "}",
+     ".imgFrame  {",
+    "	background-color: #fff !important;",
     "}",
      ".navDropDown-footer {",
     "	background: #2b303b !important;",
