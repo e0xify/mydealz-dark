@@ -5,8 +5,8 @@
 // @author        supp
 // @include       https://www.mydealz.de/*
 // @run-at        document-start
-// @version       0.45
-// @updateURL     https://raw.githubusercontent.com/e0xify/mydealz-dark/master/darkmydealz.js
+// @version       0.46
+// @updateURL     https://raw.githubusercontent.com/e0xify/mydealz-dark/master/darkmydealz_stickyHeader.js
 // ==/UserScript==
 
 (function() {var css = [
@@ -206,6 +206,9 @@
     "}",
     ".vote-btn.vote-down:hover {",
     "	background-color:#0EAAF7 !important;",
+    "}",
+    ".btn.btn--square.navDropDown-btn.navDropDown-trigger.navDropDown-trigger:hover {",
+    "background-color:rgba(97,177,51,0.5) !important;",
     "}",
     ".userHtml a.linkPlain, .userHtml a.thread-link {",
     "	color:#54B347 !important;",
